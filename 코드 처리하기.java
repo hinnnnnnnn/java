@@ -16,3 +16,9 @@ class Solution {
         return answer.length() == 0 ? "EMPTY" : answer.toString();
     }
 }
+
+💡 핵심!
+• 처음에 mode = 0
+• '1' 나오면 mode 전환, 그 문자는 무조건 스킵
+• mode에 따라 짝수/홀수 인덱스에서만 글자 추가
+• 끝났는데 아무 글자도 없으면 → "EMPTY"
