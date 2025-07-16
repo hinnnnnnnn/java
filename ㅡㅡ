@@ -20,7 +20,7 @@ class Solution {
                    answer += "a";
                    break;
            }
-            temp = numLog[i]; 다음 루프를 위한 기준값 갱신
+            temp = numLog[i]; //다음 루프를 위한 기준값 갱신
         }
         return answer;
     }
