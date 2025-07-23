@@ -6,7 +6,7 @@ class Solution {
             answer += numbers[i]; // 누적해서 더하기
             
             if (answer > n) {
-                break; // n보다 커지면 종료
+                break; // ⭐️n보다 커지면 종료⭐️
             }
         }
         
