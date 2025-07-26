@@ -27,5 +27,8 @@ class Solution {
     }
 }
 
-https://school.programmers.co.kr/learn/courses/30/lessons/181888
+💡 "배열 길이 ÷ 간격(n)"
+→ 근데 완벽히 안 나눠지면? → 올림 필요!
+
+따라서 ((배열 길이 + 간격 - 1) / 간격) 식 사용
 
