@@ -12,3 +12,6 @@ class Solution {
     }
 }
 
+
+k의 배수를 구하는 공식
+k * (i + 1);
