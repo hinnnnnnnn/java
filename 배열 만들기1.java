@@ -4,13 +4,13 @@ class Solution {
         int[] answer = new int[size];
         
         for(int i=0; i<size; i++) {
-            answer[i] = k;
-            k = k + k ;
+            answer[i] = k * (i + 1);
           
         }
         return answer;
     }
 }
+
 
 
 k의 배수를 구하는 공식
